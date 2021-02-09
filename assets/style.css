@@ -1,8 +1,8 @@
 /* General Styling  */
 
-/* * {
+* {
 	box-sizing: border-box;
-} */
+}
 
 body {
 	font-family: monospace;
@@ -101,6 +101,39 @@ ul {
     border-radius: 60%;
 }
 
+.projectImages {
+    display: flex;
+    flex-direction: row;   
+
+}
+
+.project-link {
+    display: block;
+}
+
+.wrap {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.child {
+    flex-grow: 1;
+    background-image: url("https://i.pinimg.com/originals/31/5e/d9/315ed9d150145464eef17f33076352f2.jpg");
+    height: 100px;
+    background-size: cover;
+    display: block;
+}
+
+.link-image {
+    background-image: url(../assets/horiseonSite.png);
+    background-size: cover;
+    height: 500px;
+    opacity: 75%;
+    width: 100%;
+    display: block;
+}
+
 /* Responsive Media Queries  */
 
 @media (max-width: 768px) {
@@ -122,32 +155,9 @@ ul {
     body {
         text-align: center;
     }
+    .child {
+        flex-direction: column;
+        width: 100%;
+    }
 }
 
-
-.projectImages {
-    display: flex;
-    flex-direction: row;   
-
-}
-
-.wrap {
-    width: 100%;
-    flex-wrap: wrap;
-    display: flex;
-}
-
-.child {
-    flex-grow: 1;
-    background-image: url("https://i.pinimg.com/originals/31/5e/d9/315ed9d150145464eef17f33076352f2.jpg");
-    height: 100px;
-    background-size: cover;
-}
-
-.link-image {
-    background-image: url(../assets/horiseonSite.png);
-    background-size: cover;
-    height: 500px;
-    opacity: 75%;
-    width: 100%;
-}
