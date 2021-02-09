@@ -7,9 +7,8 @@
 body {
 	font-family: monospace;
 	line-height: 1.5;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0;
-    padding: 0;
 }
 
 a {
@@ -34,7 +33,7 @@ ul {
 
 .name {
 	margin: 0;
-	font-size: 3rem;
+	font-size: 4rem;
 }
 
 .navbar {
@@ -43,54 +42,11 @@ ul {
 
 .logo a,
 .main-nav a {
-	padding: 50px;
+	padding: 48px;
 	text-align: center;
 }
 
-/* About Me section  */
-
-#about-me {
-    background-color: red;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between; */
-    margin-top: 16px;
-}
-
-/* Work section */
-
-#work {
-    background-color: yellow;
-    margin-top: 16px;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: flex-start; */
-}
-
-/* Contact Info Section  */
-
-#contact-info {
-    background-color: blue;
-
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
-    margin-top: 16px;
-}
-
-.contact-info a {
-    color: white;
-}
-
-.contact-info li {
-    padding: 50px
-}
-
-.contact-info {
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-between;
-}
+/* Developer Portrait */
 
 .portrait {
     max-width: 250px;
@@ -100,6 +56,26 @@ ul {
     margin-right: auto;
     border-radius: 60%;
 }
+
+
+
+/* About Me section  */
+
+#about-me {
+    background-color: red;
+    margin-top: 16px;
+    padding: 50px;
+}
+
+/* Work section */
+
+#work {
+    background-color: yellow;
+    margin-top: 16px;
+    padding: 40px 40px;
+}
+
+/* Image gallery  */
 
 .projectImages {
     display: flex;
@@ -117,12 +93,26 @@ ul {
     display: flex;
 }
 
+.wrap a {
+    color: #fff;
+}
+
 .child {
     flex-grow: 1;
-    background-image: url("https://i.pinimg.com/originals/31/5e/d9/315ed9d150145464eef17f33076352f2.jpg");
+    /* background-image: url("https://i.pinimg.com/originals/31/5e/d9/315ed9d150145464eef17f33076352f2.jpg"); */
     height: 100px;
     background-size: cover;
     display: block;
+}
+
+.one {
+    background-image: url(../assets/tbgreen.jpg);
+    opacity: 75%;
+}
+
+.two {
+    background-image: url(../assets/tbpurple.jpg);
+    opacity: 75%;
 }
 
 .link-image {
@@ -132,6 +122,28 @@ ul {
     opacity: 75%;
     width: 100%;
     display: block;
+}
+
+/* Contact Info/footer Section  */
+
+#contact-info {
+    background-color: blue;
+    margin-top: 16px;
+    padding: 40px 40px;
+}
+
+.contact-info a {
+    color: white;
+}
+
+.contact-info li {
+    padding: 50px
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
 }
 
 /* Responsive Media Queries  */
