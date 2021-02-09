@@ -1,0 +1,131 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: monospace;
+	line-height: 1.5;
+    font-size: 1.5rem;
+    margin: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.name {
+	margin: 0;
+	font-size: 3rem;
+}
+
+.navbar {
+	margin-top: 5px;
+}
+
+.logo a,
+.main-nav a {
+	padding: 50px;
+	text-align: center;
+}
+
+#about-me {
+    background-color: red;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+
+#work {
+    background-color: yellow;
+    padding: 100px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+#contact-info {
+    background-color: blue;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.contact-info a {
+    color: white;
+}
+
+.contact-info li {
+    padding: 50px
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.portrait {
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 60%;
+}
+
+.header, .main-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+@media (max-width: 768px) {
+    .main-nav {
+        flex-direction: column;
+    }
+    .main-nav li {
+        margin: 50px 0;
+    }
+    .header {
+        flex-direction: column;
+    }
+    #contact-info{
+        flex-direction: column;
+    }
+    .contact-info {
+        flex-direction: column;
+    }
+}
+
+
+.projectImages {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.wrap {
+    flex-direction: row;
+    
+}
+
+.wrap img {
+    width: 25%;
+}
