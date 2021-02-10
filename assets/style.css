@@ -100,6 +100,12 @@ h1 {
     background-size: cover;
     display: block;
     margin: 0 12px;
+    border: 4px solid var(--darkest);
+}
+
+.child:hover {
+    opacity: 1;
+    transition: all 1000ms ease;
 }
 
 .one {
@@ -120,6 +126,12 @@ h1 {
     width: 100%;
     display: block;
     margin-bottom: 40px;
+    border: 4px solid var(--darkest);
+}
+
+.link-image:hover {
+    opacity: 1;
+    transition: all 1000ms ease;
 }
 
 /* Contact Info/footer Section  */
@@ -169,7 +181,6 @@ h1 {
         flex-direction: column;
         width: 100%;
     }
-
     .child {
         margin: 16px 0;
     }
