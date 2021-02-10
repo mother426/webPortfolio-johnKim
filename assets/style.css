@@ -99,6 +99,7 @@ h1 {
     height: 100px;
     background-size: cover;
     display: block;
+    margin: 0 12px;
 }
 
 .one {
@@ -118,6 +119,7 @@ h1 {
     opacity: 75%;
     width: 100%;
     display: block;
+    margin-bottom: 40px;
 }
 
 /* Contact Info/footer Section  */
@@ -166,6 +168,10 @@ h1 {
     .child {
         flex-direction: column;
         width: 100%;
+    }
+
+    .child {
+        margin: 16px 0;
     }
 }
 
