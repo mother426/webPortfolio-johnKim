@@ -94,6 +94,10 @@ h1 {
     color: var(--light);
 }
 
+.wrap a div {
+    background-color: var(--dark);
+}
+
 .child {
     flex-grow: 1;
     height: 100px;
