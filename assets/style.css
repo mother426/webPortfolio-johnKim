@@ -113,17 +113,17 @@ h1 {
 }
 
 .one {
-    background-image: url(../assets/tbgreen.jpg);
+    background-image: url(../assets/passwordgenerator.png);
     opacity: 75%;
 }
 
 .two {
-    background-image: url(../assets/tbpurple.jpg);
+    background-image: url(../assets/weatherdashboard1.png);
     opacity: 75%;
 }
 
 .link-image {
-    background-image: url(../assets/horiseonSite.png);
+    background-image: url(../assets/dogglesite1.png);
     background-size: cover;
     height: 500px;
     opacity: 75%;
